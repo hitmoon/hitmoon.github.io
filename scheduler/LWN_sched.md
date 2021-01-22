@@ -12,3 +12,9 @@
 [Many uses for Core scheduling](https://lwn.net/Articles/799454/)
 
 [Completing and merging core scheduling](https://lwn.net/Articles/820321/)
+
+[Sched Domain](https://lwn.net/Articles/80911/)
+
+[nohz](https://lwn.net/Articles/420544/)
+
+[linux scheduling](https://oska874.gitbooks.io/process-scheduling-in-linux/content/)
