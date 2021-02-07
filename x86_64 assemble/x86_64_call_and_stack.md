@@ -20,7 +20,7 @@ Like a stack data structure, the stack memory segment is only accessed from the 
 
 x86-64 stacks look like this:
 
-![Stack](https://cs61.seas.harvard.edu/site/img/stack-2018-01.png)
+![Stack](../../assets/images/stack_x86_64.png?raw=true)
 
 The x86-64 %rsp register is a special-purpose register that defines the current “stack pointer.” This holds the address of the current top of the stack. On x86-64, as on many architectures, stacks grow down: a “push” operation adds space for more automatic-lifetime objects by moving the stack pointer left, to a numerically-smaller address, and a “pop” operation recycles space by moving the stack pointer right, to a numerically-larger address. This means that, considered numerically, the “top” of the stack has a smaller address than the “bottom.”
 
@@ -54,7 +54,7 @@ To prepare for a function call, the caller performs the following tasks in its e
 4. The caller executes callq FUNCTION. This has an effect like pushq $NEXT_INSTRUCTION; jmp FUNCTION (or, equivalently, subq $8, %rsp; movq $NEXT_INSTRUCTION, (%rsp); jmp FUNCTION), where NEXT_INSTRUCTION is the address of the instruction immediately following callq.
 
 This leaves a stack like this:
-![Initial stack at start of function](https://cs61.seas.harvard.edu/site/img/stack-2018-02.png)
+![Initial stack at start of function](../../assets/images/initial_stack.png?raw=true)
 
 To return from a function:
 
@@ -82,7 +82,7 @@ On x86-64 Linux, %rbp, %rbx, %r12, %r13, %r14, and %r15 are callee-saved, as (so
 ## Base pointer (frame pointer)
 The %rbp register is called the base pointer (and sometimes the frame pointer). For simple functions, an optimizing compiler generally treats this like any other callee-saved general-purpose register. However, for more complex functions, %rbp is used in a specific pattern that facilitates debugging. It works like this:
 
-![Stack frame with base pointer](https://cs61.seas.harvard.edu/site/img/stack-2018-03.png)
+![Stack frame with base pointer](../../assets/images/base_pointer.png?raw=true)
 
 1. The first instruction executed on function entry is pushq %rbp. This saves the caller’s value for %rbp into the callee’s stack. (Since %rbp is callee-saved, the callee must save it.)
 
@@ -105,5 +105,5 @@ The %rbp register is called the base pointer (and sometimes the frame pointer). 
 最终地址 = 地址或偏移 + %基址或偏移量寄存器 + %索引寄存器  * 比例因子
 
 ## 参考
-https://cs61.seas.harvard.edu/site/2018/Asm2/
+https://cs61.seas.harvard.edu/site/2018/Asm2/  
 http://abcdxyzk.github.io/blog/2012/11/23/assembly-args/
