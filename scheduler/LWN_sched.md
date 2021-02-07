@@ -18,3 +18,5 @@
 [nohz](https://lwn.net/Articles/420544/)
 
 [linux scheduling](https://oska874.gitbooks.io/process-scheduling-in-linux/content/)
+
+[sched basic](https://josefbacik.github.io/kernel/scheduler/2017/07/14/scheduler-basics.html)
