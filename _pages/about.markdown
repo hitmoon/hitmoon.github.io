@@ -1,8 +1,9 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: 关于TransClient
+permalink: /trans_client/about/
+nav_order: 4
 ---
 
-My personal site
+TransClient, 一款为Transmission 和 qBittorrent 打造的iOS 客户端工具。使您在移动设备上轻松对下载任务进行管理。
 
