@@ -1,7 +1,8 @@
 ---
 layout: page
 title: 关于TransClient
-permalink: /trans_client/about/
+lang: zh
+permalink: /zh/about/
 nav_order: 4
 ---
 

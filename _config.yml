@@ -30,7 +30,12 @@ url: "https://hitmoon.github.io" # the base hostname & protocol for your site, e
 # theme: minima
 theme: just-the-docs
 search_enabled: false
-permalink: pretty
+
+# 多语言配置
+default_lang: "en"
+languages:
+  en: "English"
+  zh: "中文"
 
 include:
   - "*.md"
@@ -38,19 +43,23 @@ include:
   - "*.html"
 
 collections:
-  pages:
+  en:
     output: true
-    permalink: /trans_client/:path/
-  docs:
+    directory: en
+
+  zh:
     output: true
-    permalink: /trans_client/:path/
+    directory: zh
+
   posts:
     output: false
 
 just_the_docs:
   collections:
-    pages:
-      name: trans_client
+    en:
+    zh:
+
+
 
 # Back to top link
 back_to_top: true

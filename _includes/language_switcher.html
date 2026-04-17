@@ -1,0 +1,24 @@
+<!-- 语言切换组件 -->
+<div class="lang-switch" style="position: absolute; top: 1rem; right: 2rem;">
+
+  {% if page.lang == 'zh' %}
+    <a href="{{ page.url | replace_first: "/zh/", "/en/" }}" class="btn">English</a>
+  {% else %}
+    <a href="{{ page.url | replace_first: "/en/", "/zh/" }}" class="btn">中文</a>
+  {% endif %}
+</div>
+
+<!-- 适配主题样式 -->
+<style>
+.lang-switch .btn {
+  padding: 4px 12px;
+  background: #0066cc;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.lang-switch .btn:hover {
+  background: #0052a3;
+}
+</style>

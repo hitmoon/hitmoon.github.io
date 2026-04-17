@@ -1,6 +1,8 @@
 ---
 layout: default
 title: 服务条款
+lang: zh
+permalink: /zh/terms_of_service/
 nav_order: 2
 ---
 

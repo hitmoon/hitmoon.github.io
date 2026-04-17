@@ -1,0 +1,29 @@
+<div class="side-bar">
+  <div class="site-header">
+    <a href="{% if page.lang == 'zh' %}/zh/{% else %}/en/{% endif %}" class="site-title">
+      {{ site.title }}
+    </a>
+  </div>
+
+  {% include language_switcher.html %}
+
+  <nav class="site-nav">
+    <ul class="nav-list">
+      {% if page.lang == 'zh' %}
+        {% assign collection = site.zh %}
+      {% else %}
+        {% assign collection = site.en %}
+      {% endif %}
+ 
+      {% assign pages = collection | where_exp: "item", "item.nav_exclude != true" | sort: "nav_order" %}
+
+      {% for item in pages %}
+        <li class="nav-list-item">
+          <a href="{{ item.url }}" class="nav-list-link {% if page.url == item.url %}active{% endif %}">
+            {{ item.title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</div>

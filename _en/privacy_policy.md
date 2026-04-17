@@ -1,6 +1,8 @@
 ---
 layout: default
-title: 隐私策略
+title: Privacy Policy
+lang: en
+permalink: /en/privacy_policy/
 nav_order: 3
 ---
 
