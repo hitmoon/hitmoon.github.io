@@ -6,126 +6,47 @@ permalink: /en/privacy_policy/
 nav_order: 3
 ---
 
-# 隐私策略（Privacy Policy）
+# Privacy Policy
 
-## 1. 引言
+Last updated: April 15, 2026
 
-我们高度重视您的个人信息保护，严格遵守《中华人民共和国个人信息保护法》《App 审核指南》及苹果公司 iOS 平台隐私规范，制定本隐私策略，明确告知您我们如何收集、使用、存储、共享和保护您的个人信息，以及您享有的相关权利。
 
-本隐私策略适用于您使用本 App 所有服务的过程，若您不同意本隐私策略的任何内容，请勿使用本 App 服务；若您继续使用，即表示您同意我们按照本策略处理您的个人信息。
+This Privacy Policy explains that we **DO NOT collect, store, transmit, or share any personal data or user information** when you use our application.
 
-我们会根据业务发展、法律法规更新，不定期修改本隐私策略，修改后将通过 App 内公告、弹窗等方式通知您，您继续使用本服务即视为接受修改后的隐私策略。
+## 1. Information We Do NOT Collect
+We do **not** collect, request, access, upload, or process any of the following:
+- Personal identification information (name, email, address, phone, etc.)
+- Device identifiers, advertising IDs, or analytics data
+- Location data
+- Browsing or app usage history
+- Photos, files, or user-generated content
+- Contacts, messages, or call logs
 
-## 2. 我们收集的个人信息
+## 2. How Your Data Is Stored
+All data you enter or generate within the App is stored **ONLY on your local device** or synced to **your personal Apple iCloud account** (if you enable iCloud sync).
 
-我们遵循“合法、正当、必要”的原则，仅收集为实现本 App 核心功能所必需的个人信息，不收集与服务无关的信息，具体如下：
+- We **cannot access, view, or obtain** any data stored on your device or iCloud.
+- No data is transmitted to our servers or any third-party servers.
 
-### 2.1  您主动提供的信息
+## 3. Use of Data
+Since we do not collect any user data, **no data is used for any purpose**, including advertising, marketing, analytics, or tracking.
 
-若您使用iCloud同步功能，您可能需要主动提供：iCloud登录账户，密码信息，用于完成身份验证、账号管理，您可自主选择是否提供，不提供将不影响非iCloud同步功能的使用。
+## 4. Sharing of Data
+We do not sell, rent, lease, trade, or share any user data with third parties — because no data is collected.
 
-若您使用本 App 的【意见反馈】功能，您可能需要主动输入反馈内容、上传问题截图等，这些信息将仅用于处理您的反馈、优化 App 功能，不会用于其他用途。
+## 5. iCloud Service
+If you use iCloud synchronization, all data is governed by **Apple’s Privacy Policy**. We have no access to your iCloud data.
 
-### 2.2 我们自动收集的信息
+## 6. Third-Party Services
+This App does not include any third-party SDKs, analytics, ads, or data-collecting services.
 
-本App使用的数据均存储在用户设备本地或者iCloud帐号，不会收集任何用户个人信息数据。
+## 7. Children’s Privacy
+The App is not intended for children under 13. We do not knowingly collect data from anyone.
 
-### 2.3 权限相关信息
+## 8. Changes to This Policy
+We may update this policy occasionally. Continued use of the App constitutes acceptance of the updated policy.
 
-本 App 可能需要申请以下 iOS 系统权限，权限申请仅为实现对应功能，您可自主选择开启或关闭，关闭权限后不影响其他功能使用：
+## 9. Contact Us
+If you have questions about this Privacy Policy, contact us:
 
-- 存储权限：用于【反馈截图】，仅访问您授权的文件，不擅自读取、修改您的其他设备文件；
-
-- 网络权限：用于实现 App 联网功能，获取网络资源；
-
-- 相机权限（如适用）：用于【拍摄问题截图上传反馈】，仅在您使用该功能时获取相机画面，不后台收集；
-
-- 其他权限（如适用）：【无额外权限需求】，均遵循最小必要原则，仅在功能使用时触发。
-
-### 2.4 不收集的信息
-
-我们不会收集您的通讯录、短信、通话记录、银行账户信息、身份证信息等敏感个人信息。
-
-## 3. 个人信息的使用
-
-我们收集的个人信息，仅用于以下目的，未获得您的明确同意，不会用于其他用途：
-
-- 实现核心服务：用于账号登录、身份验证，保障服务正常提供；
-
-- 优化服务体验：根据您的使用习惯、设备信息，优化 App 界面、功能，修复 Bug，提升运行稳定性；
-
-- 响应您的需求：用于处理您的意见反馈、投诉、咨询，为您提供技术支持；
-
-- 合规要求：根据法律法规、苹果平台规则，配合相关部门的监管、调查，提供必要的信息（仅在法定范围内）。
-
-我们不会将您的个人信息用于广告推送、商业推广等用途，除非获得您的明确同意。
-
-## 4. 个人信息的存储与保护
-
-### 4.1 存储方式与期限
-
-您的个人信息将存储在 iOS 设备本地及我们的合规服务器（或苹果 iCloud 服务，如适用），存储地点均位于中华人民共和国境内（除非法律法规另有规定）。
-
-### 4.2 安全保护措施
-
-我们采取多种安全措施，保障您的个人信息安全，防止信息泄露、篡改、丢失：
-
-- 技术保护：采用加密技术（如 SSL 加密）对个人信息进行传输、存储，防止数据在传输过程中被窃取、篡改；
-
-- 权限管理：严格控制内部人员对个人信息的访问权限，仅授权人员可访问，且访问过程将被记录；
-
-- 安全审计：定期对个人信息处理流程进行安全审计，及时发现并修复安全隐患；
-
-- 设备安全：提醒您妥善保管设备及账号，避免设备丢失、账号被盗导致个人信息泄露。
-
-请注意，互联网环境并非绝对安全，尽管我们采取了上述保护措施，仍无法完全避免个人信息被非法访问、泄露的风险，若发生此类情况，我们将及时采取补救措施，并按照法律法规要求通知您、向相关部门报告。
-
-## 5. 个人信息的共享与披露
-
-我们严格保护您的个人信息，不会向任何无关第三方出售、出租、转让您的个人信息，仅在以下情况下，可能共享或披露您的个人信息：
-
-- 获得您的明确同意：在您同意的情况下，向您指定的第三方共享必要的个人信息；
-
-- 第三方服务提供商：为实现本 App 核心功能，我们可能委托第三方服务提供商（如服务器托管、技术支持、数据统计等）处理相关信息，第三方服务提供商将严格按照我们的要求处理信息，不得擅自使用、泄露；
-
-- 合规要求：根据法律法规、司法机关、行政部门的要求，披露您的个人信息；
-
-- 紧急情况：为保护您的生命财产安全、公共利益，在紧急情况下，可依法披露您的个人信息。
-
-我们会对第三方服务提供商进行严格审核，签订保密协议，确保您的个人信息安全。
-
-## 6. 您的个人信息权利
-
-根据相关法律法规，您享有以下个人信息权利，我们将为您提供便捷的操作途径：
-
-- 撤回同意权：您可通过 iOS 系统设置，关闭相关权限（如存储、相机等），撤回对我们收集、使用相关信息的同意；
-
-- 投诉权：若您认为我们的个人信息处理行为违反法律法规或本隐私策略，可通过【联系方式】联系我们投诉，我们将在 15 个工作日内回复处理。
-
-## 7. 第三方服务说明
-
-本 App 可能包含第三方 SDK 或服务链接（如：统计 SDK等），第三方服务可能会收集您的相关信息，其隐私政策由第三方独立制定，与我们无关。
-
-我们会对第三方 SDK 进行严格审核，确保其符合隐私保护要求，您使用第三方服务时，需遵守第三方的隐私政策，若您对第三方的信息处理有疑问，可联系第三方咨询。
-
-## 8. 未成年人保护
-
-我们重视未成年人的个人信息保护，若您是未满 18 周岁的未成年人，需在监护人的陪同下使用本 App，且需经监护人同意后，方可提供个人信息。
-
-若我们发现未成年人擅自提供个人信息，将立即删除相关信息，并通知其监护人。
-
-## 9. 隐私政策的生效与修改
-
-本隐私政策自您首次使用本 App 服务之日起生效，有效期至本 App 终止服务之日。
-
-我们有权根据业务发展、法律法规更新，修改本隐私政策，修改后将通过 App 内公告、弹窗等方式通知您，您继续使用本服务即视为接受修改后的隐私政策；若您不接受修改，应立即停止使用本服务并卸载本 App。
-
-## 10. 联系方式
-
-若您对本隐私策略有任何疑问、投诉、建议，或需要行使个人信息权利，可通过以下方式联系我们：
-
-开发者名称：赵小强
-
-联系邮箱：zhaoxiaoqiang007@hotmail.com
-
-修订日期：2026年4月15日
+Email: zhaoxiaoqiang007@hotmail.com

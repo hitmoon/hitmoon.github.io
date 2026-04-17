@@ -6,5 +6,5 @@ permalink: /en/about/
 nav_order: 4
 ---
 
-TransClient, An Transmission and qBittorrent build for iOS 。使您在移动设备上轻松对下载任务进行管理。
+TransClient, An Transmission and qBittorrent client build for iOS platform. Allows you to conveniently manage download tasks across your mobile devices.
 
