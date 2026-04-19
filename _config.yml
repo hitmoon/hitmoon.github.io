@@ -45,11 +45,9 @@ include:
 collections:
   en:
     output: true
-    directory: en
 
   zh:
     output: true
-    directory: zh
 
   posts:
     output: false
