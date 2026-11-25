@@ -443,20 +443,6 @@ main {
   text-transform: uppercase;
 }
 
-.portal-note {
-  margin: 16px 0 0;
-  color: var(--muted);
-  font-size: 14px;
-}
-
-code {
-  padding: 2px 5px;
-  border-radius: 4px;
-  background: var(--code);
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  font-size: 0.9em;
-}
-
 .page-section {
   margin-top: 46px;
 }
