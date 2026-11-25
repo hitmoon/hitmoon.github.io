@@ -34,10 +34,15 @@ jobs:
       - name: Verify site files
         run: |
           test -f site/index.html
+          test -f site/lifepage/index.html
+          test -f site/lifepage/privacy.html
+          test -f site/lifepage/terms.html
+          test -f site/legal.css
+          test -f site/favicon.svg
           test -f site/privacy.html
           test -f site/terms.html
           echo "Publishing from $GITHUB_REF ($GITHUB_SHA)"
-          find site -maxdepth 1 -type f -print | sort
+          find site -maxdepth 2 -type f -print | sort
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v3

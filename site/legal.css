@@ -427,6 +427,36 @@ main {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
+.app-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 420px));
+  gap: 16px;
+  margin-top: 22px;
+}
+
+.app-meta {
+  margin: 0 0 8px;
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.portal-note {
+  margin: 16px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+code {
+  padding: 2px 5px;
+  border-radius: 4px;
+  background: var(--code);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.9em;
+}
+
 .page-section {
   margin-top: 46px;
 }
@@ -554,6 +584,12 @@ main {
   margin-top: 18px;
   color: var(--accent);
   font-weight: 700;
+}
+
+@media (max-width: 700px) {
+  .header-nav .nav-all-apps {
+    display: none;
+  }
 }
 
 @media (max-width: 640px) {
