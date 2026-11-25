@@ -3,7 +3,7 @@ name: Deploy legal pages
 on:
   push:
     branches:
-      - main
+      - app
     paths:
       - "site/**"
       - ".github/workflows/pages.yml"
@@ -31,10 +31,20 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
+      - name: Verify site files
+        run: |
+          test -f site/index.html
+          test -f site/privacy.html
+          test -f site/terms.html
+          echo "Publishing from $GITHUB_REF ($GITHUB_SHA)"
+          find site -maxdepth 1 -type f -print | sort
+
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
+          name: github-pages
           path: site
+          retention-days: 1
 
       - name: Deploy to GitHub Pages
         id: deployment
